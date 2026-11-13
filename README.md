@@ -52,3 +52,8 @@ npm run preview
 - `index.html`, `package.json`, `package-lock.json`, `vite.config.ts`, `tsconfig.json`: 루트에서 빌드
 - `vercel.json`: Vite 설정, SPA 주소 새로고침 처리
 - `.gitignore`, `.vercelignore`: 개발 환경 및 레거시 배포 자산 제외
+
+
+## Vercel dependency fix
+
+The lockfile references the public npm registry instead of the private Replit package firewall. Install using `npm ci` and deploy with the Vite preset, root directory `./`, build `npm run build`, output `dist`. No backend or secrets are required for the UI-only preview.
