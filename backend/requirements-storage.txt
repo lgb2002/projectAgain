@@ -1,3 +1,0 @@
-# Manual Replit App Storage deployment, Python 3.12 required by SDK.
--r requirements.txt
-replit-object-storage==1.0.2

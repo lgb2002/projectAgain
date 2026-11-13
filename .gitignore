@@ -1,18 +1,24 @@
+# Local credentials / environment
 .env
 .env.*
 !.env.example
-.venv/
-__pycache__/
-.pytest_cache/
-*.pyc
-*.pyo
-*.sqlite3
-*.db
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Dependencies and build outputs
 node_modules/
-frontend/dist/
-frontend/.vite/
+dist/
+.vite/
+.vercel/
+coverage/
+
+# Local artifacts
 .DS_Store
 *.log
 *.zip
-coverage/
-.nyc_output/
+__pycache__/
+*.sqlite3
+*.db
+.venv/

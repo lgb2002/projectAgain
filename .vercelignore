@@ -1,0 +1,18 @@
+# Legacy folders may remain when this archive is merged into an existing checkout.
+# The single Vercel project builds ONLY the root Vite application.
+backend/
+frontend/
+legacy_backend/
+docs/
+contracts/
+integrations/
+fixtures/
+scripts/
+.venv/
+**/node_modules/
+*.zip
+*.sqlite3
+*.db
+.env
+.env.*
+!.env.example
