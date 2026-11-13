@@ -1,0 +1,3 @@
+# Hand-authored configuration only: no Replit Agent required or permitted.
+run = "bash scripts/run_replit.sh"
+entrypoint = "backend/app/main.py"
